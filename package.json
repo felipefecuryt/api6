@@ -1,0 +1,19 @@
+{
+  "name": "api-paginacao",
+  "version": "1.0.0",
+  "description": "API REST com paginacao, ordenacao, filtros e metadados de navegacao (HATEOAS)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["api", "rest", "paginacao", "filtros", "hateoas"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "winston": "^3.17.0",
+    "zod": "^3.24.1"
+  }
+}
